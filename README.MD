@@ -1,3 +1,8 @@
+
+==================================================================
+Script Details: 
+Please execute the following script in the current directory where the data is loaded and it produces tidy data as an output. You don't need any parameters.
+- Run run_analysis.R in R.
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
@@ -56,7 +61,8 @@ Notes:
 ======
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
-- Run run_analysis.R in R.
+
+
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
