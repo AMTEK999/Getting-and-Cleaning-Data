@@ -116,4 +116,4 @@ tidyData    = aggregate(finalDataNoActivityType[,names(finalDataNoActivityType) 
 tidyData    = join(tidyData,activityType, by='activityId', match = "all")
 
 # Export the tidyData set 
-write.table(tidyData, './tidyData.csv',row.names=TRUE,sep=',')
+write.table(tidyData, './tidyData.txt',row.names=TRUE,sep='\t')
